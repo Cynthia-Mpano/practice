@@ -1,3 +1,14 @@
+/* Removes unwanted styling from the page */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  max-width: 100%;
+}
 .nav{          
     justify-content: center;     
     margin: 20px;     
@@ -77,9 +88,36 @@ button:hover{
     text-align: center;
     height: 100vh;  
 }
-ol{
-    list-style-type: none;
+.skill{
+ margin:50px;
+
 }
+
+.my_skill {
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+  }
+  
+  .bar {
+    background-color: #87ceeb;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 30%;
+  }
+  .level {
+    background-color: #teal;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 15px;
+
+
 #footer{
     background-color: rgb(68, 60, 60);
     color: white;
