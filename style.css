@@ -83,10 +83,7 @@ button:hover{
     height: 50vh;
 }
  .skills{
-   justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 50vh;
+  margin: 40%
  }
 .contacts{
     justify-content: center;
