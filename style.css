@@ -18,7 +18,6 @@
     list-style-type: none;
     padding: 14px; 
     border-radius: 2rem;
-    position: fixed;
         }
   .nav li{
   
@@ -89,10 +88,6 @@ button:hover{
     text-align: center;
     height: 100vh;  
 }
-.skills{
- margin:50px;
-
-}
 
 .my_skills {
     margin-bottom: 10px;
@@ -106,7 +101,7 @@ button:hover{
   }
   
   .bar {
-    background-color: #F08080;
+    background-color: #FFF0F5;
     border-radius: 20px;
     overflow: hidden;
     width: 30%;
