@@ -82,21 +82,19 @@ button:hover{
     text-align: center;
     height: 50vh;
 }
- .skills{
-  margin-left: 40%;
- }
-.contacts{
+
+.contacts, .skills{
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;  
 }
+ol li{
+  list-style-type: none;
+}
 
-.my_skills {
-    margin-bottom: 10px;
-  }
   
-  .skill-name {
+  /*.skill-name {
     color: black;
     font-weight: bold;
     margin-bottom: 5px;
@@ -116,7 +114,7 @@ button:hover{
     padding: 5px;
     border-radius: 15px;
 
-}
+}*/
 #footer{
     background-color: rgb(68, 60, 60);
     color: white;
